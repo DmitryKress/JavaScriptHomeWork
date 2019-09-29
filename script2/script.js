@@ -1,4 +1,4 @@
-var product = prompt("Пожалуйста, введите день недели");
+var product = prompt("Please, type day of the week");
 
 switch (product) {
   case "Monday":
