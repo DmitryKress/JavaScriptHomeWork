@@ -1,16 +1,29 @@
-var day = prompt("Please, type day of the week");
-var today = "Monday";
-var today = "Tuesday";
-var today = "Wednesday";
-var today = "Thursday";
-var today = "Friday";
-var today = "Saturday";
-var today = "Sunday";
+var today = prompt("Please, type day of the week");
 
-if (today === "Monday" || "Tuesday" || "Wednesday" || "Thursday" || "Friday") {
+if (today === "Monday") {
   alert("Working Day");
 }
 
-if (today === "Saturday" || "Sunday") {
+if (today === "Tuesday") {
+  alert("Working Day");
+}
+
+if (today === "Wednesday") {
+  alert("Working Day");
+}
+
+if (today === "Thursday") {
+  alert("Working Day");
+}
+
+if (today === "Friday") {
+  alert("Working Day");
+}
+
+if (today === "Saturday") {
+  alert("Weekend");
+}
+
+if (today === "Sunday") {
   alert("Weekend");
 }
